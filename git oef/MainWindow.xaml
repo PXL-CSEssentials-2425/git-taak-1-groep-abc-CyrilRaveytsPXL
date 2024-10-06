@@ -8,6 +8,7 @@
         Title="MainWindow" Background="LightGray" Height="450" Width="800">
     <Grid>
         <Label Content="Kleurenpsychologie" HorizontalAlignment="Left" Margin="55,34,0,0" VerticalAlignment="Top"/>
+        <Image Margin="640,10,10,274" Source="/PXL.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
