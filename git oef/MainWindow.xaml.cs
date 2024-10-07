@@ -60,5 +60,25 @@ namespace git_oef
         {
             mainWindow.Background = new SolidColorBrush(Colors.LightGray);
         }
+
+        private void redColor_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = "#FF0000";
+        }
+
+        private void yellowColor_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = "#FFFF00";
+        }
+
+        private void greenColor_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = "#008000";
+        }
+
+        private void blueColor_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = "#0000FF";
+        }
     }
 }

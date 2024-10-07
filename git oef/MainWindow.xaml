@@ -9,10 +9,12 @@
     <Grid x:Name="mainWindow">
         <Label Content="Kleurenpsychologie" HorizontalAlignment="Left" Margin="55,34,0,0" VerticalAlignment="Top"/>
         <Image Margin="640,10,10,274" Name="PXlImage" Source="/PXL.png"/>
-        <Image Margin="55,105,576,217" Name="redColor" Source="/Rood.png" MouseEnter="redColor_MouseEnter" MouseLeave="redColor_MouseLeave" Stretch="Fill" RenderTransformOrigin="0.088,-0.239"/>
-        <Image Margin="252,105,378,217" Name="yellowColor" MouseEnter="yellowColor_MouseEnter" MouseLeave="yellowColor_MouseLeave" Source="/Geel.png" Stretch="Fill"/>
-        <Image Margin="55,238,577,84" Name="greenColor" MouseEnter="greenColor_MouseEnter" MouseLeave="greenColor_MouseLeave" Source="/Groen.png" Stretch="Fill"/>
-        <Image Margin="252,238,379,84" Name="blueColor" MouseEnter="blueColor_MouseEnter" MouseLeave="blueColor_MouseLeave" Source="/Blauw.png" Stretch="Fill"/>
+        <Image Margin="55,105,576,217" Name="redColor" Source="/Rood.png" MouseDown="redColor_MouseDown" MouseEnter="redColor_MouseEnter" MouseLeave="redColor_MouseLeave" Stretch="Fill" RenderTransformOrigin="0.088,-0.239"/>
+        <Image Margin="252,105,378,217" Name="yellowColor" MouseDown="yellowColor_MouseDown" MouseEnter="yellowColor_MouseEnter" MouseLeave="yellowColor_MouseLeave" Source="/Geel.png" Stretch="Fill"/>
+        <Image Margin="55,238,577,84" Name="greenColor" MouseDown="greenColor_MouseDown" MouseEnter="greenColor_MouseEnter" MouseLeave="greenColor_MouseLeave" Source="/Groen.png" Stretch="Fill"/>
+        <Image Margin="252,238,379,84" Name="blueColor" MouseDown="blueColor_MouseDown" MouseEnter="blueColor_MouseEnter" MouseLeave="blueColor_MouseLeave" Source="/Blauw.png" Stretch="Fill"/>
+        <Label Content="Kleurcode" HorizontalAlignment="Left" Margin="55,361,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.56,-0.053"/>
+        <TextBox HorizontalAlignment="Left" Margin="140,365,0,0" TextWrapping="Wrap" Name="kleurcode" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.037,0.798"/>
 
     </Grid>
 </Window>
