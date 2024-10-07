@@ -20,5 +20,45 @@ namespace git_oef
         {
             InitializeComponent();
         }
+
+        private void redColor_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.Red);
+        }
+
+        private void redColor_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+        private void yellowColor_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush((Color)Colors.Yellow);
+        }
+
+        private void yellowColor_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+        private void greenColor_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush((Color)Colors.Green);
+        }
+
+        private void greenColor_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush ((Color)Colors.LightGray);
+        }
+
+        private void blueColor_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush (Colors.Blue);
+        }
+
+        private void blueColor_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.LightGray);
+        }
     }
 }

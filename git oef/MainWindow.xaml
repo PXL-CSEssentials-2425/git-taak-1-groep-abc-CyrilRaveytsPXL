@@ -6,9 +6,13 @@
         xmlns:local="clr-namespace:git_oef"
         mc:Ignorable="d"
         Title="MainWindow" Background="LightGray" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="mainWindow">
         <Label Content="Kleurenpsychologie" HorizontalAlignment="Left" Margin="55,34,0,0" VerticalAlignment="Top"/>
-        <Image Margin="640,10,10,274" Source="/PXL.png" Stretch="Fill"/>
+        <Image Margin="640,10,10,274" Name="PXlImage" Source="/PXL.png"/>
+        <Image Margin="55,105,576,217" Name="redColor" Source="/Rood.png" MouseEnter="redColor_MouseEnter" MouseLeave="redColor_MouseLeave" Stretch="Fill" RenderTransformOrigin="0.088,-0.239"/>
+        <Image Margin="252,105,378,217" Name="yellowColor" MouseEnter="yellowColor_MouseEnter" MouseLeave="yellowColor_MouseLeave" Source="/Geel.png" Stretch="Fill"/>
+        <Image Margin="55,238,577,84" Name="greenColor" MouseEnter="greenColor_MouseEnter" MouseLeave="greenColor_MouseLeave" Source="/Groen.png" Stretch="Fill"/>
+        <Image Margin="252,238,379,84" Name="blueColor" MouseEnter="blueColor_MouseEnter" MouseLeave="blueColor_MouseLeave" Source="/Blauw.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
