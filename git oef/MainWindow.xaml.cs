@@ -64,21 +64,25 @@ namespace git_oef
         private void redColor_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcode.Text = "#FF0000";
+            informatie.Text = "Rood is de kleur van warmte";
         }
 
         private void yellowColor_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcode.Text = "#FFFF00";
+            informatie.Text = "Geel is de kleur van levenslust";
         }
 
         private void greenColor_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcode.Text = "#008000";
+            informatie.Text = "Groen is de kleur van genezing";
         }
 
         private void blueColor_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcode.Text = "#0000FF";
+            informatie.Text = "Blauw is de kleur van intelligentie";
         }
     }
 }

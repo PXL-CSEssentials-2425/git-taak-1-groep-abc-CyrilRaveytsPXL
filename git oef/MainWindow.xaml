@@ -13,8 +13,10 @@
         <Image Margin="252,105,378,217" Name="yellowColor" MouseDown="yellowColor_MouseDown" MouseEnter="yellowColor_MouseEnter" MouseLeave="yellowColor_MouseLeave" Source="/Geel.png" Stretch="Fill"/>
         <Image Margin="55,238,577,84" Name="greenColor" MouseDown="greenColor_MouseDown" MouseEnter="greenColor_MouseEnter" MouseLeave="greenColor_MouseLeave" Source="/Groen.png" Stretch="Fill"/>
         <Image Margin="252,238,379,84" Name="blueColor" MouseDown="blueColor_MouseDown" MouseEnter="blueColor_MouseEnter" MouseLeave="blueColor_MouseLeave" Source="/Blauw.png" Stretch="Fill"/>
-        <Label Content="Kleurcode" HorizontalAlignment="Left" Margin="55,361,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.56,-0.053"/>
-        <TextBox HorizontalAlignment="Left" Margin="140,365,0,0" TextWrapping="Wrap" Name="kleurcode" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.037,0.798"/>
+        <Label Content="Kleurcode :" HorizontalAlignment="Left" Margin="55,361,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.56,-0.053"/>
+        <TextBox HorizontalAlignment="Left" Margin="140,365,0,0" TextWrapping="Wrap" Name="kleurcode" Text="" VerticalAlignment="Top" Width="196" RenderTransformOrigin="-0.037,0.798"/>
+        <Label Content="Informatie :" HorizontalAlignment="Left" Margin="55,387,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Name="informatie" Margin="139,391,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="198"/>
 
     </Grid>
 </Window>
